@@ -10,6 +10,7 @@ export const Image = () => {
     className='w-[100vh] h-[100vw] object-contain sm:object-cover rotate-[270deg]'
     draggable={false}
   />
+  
   <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/20 pointer-events-none" />
 </section>
   )
