@@ -3,7 +3,7 @@ import friends from '../assets/friends.jpeg'
 
 export const Image = () => {
   return (
-    <section className='relative overflow-hidden bg-[rgba(0,0,0,0)] flex justify-center items-center w-full h-screen'>
+    <section className='relative overflow-hidden bg-[rgba(0,0,0,0)] flex justify-center items-center w-full h-[27vh] sm:h-[70vh] lg:h-[100vh]'>
   <img
     src={friends}
     alt="group pic"
