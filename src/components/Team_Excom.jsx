@@ -123,7 +123,7 @@ export const Team = () => {
 
                             <div className='mt-8 flex gap-4 items-center justify-center'>
                                 <a href="" target='_blank' rel="noreferrer"><FaInstagram className='text-3xl text-pink-500 hover:text-violet-500 cursor-pointer' size={25} /></a>
-                                <a href='' target='_blank' rel="noreferrer"><FaLinkedin className='text-3xl text-blue-500 hover:text-blue-700 cursor-pointer' size={25} /></a>
+                                <a href="" target='_blank' rel="noreferrer"><FaLinkedin className='text-3xl text-blue-500 hover:text-blue-700 cursor-pointer' size={25} /></a>
                             </div>
                         </div>
 

@@ -22,7 +22,7 @@ export const Counter = () => {
     const year = day * 365;
 
     // Compute years
-    const d = Date.parse("September 15, 2024");
+    const d = Date.parse("September 15, 2025");
     const p = Date.parse(new Date());
 
     const total = d - p;
@@ -67,7 +67,7 @@ export const Counter = () => {
   };
 
   const getDeadTime = () => {
-    let deadline = new Date("Sep 15, 2024 10:00:00");
+    let deadline = new Date("Sep 15, 2025 10:00:00");
     return deadline;
   };
 
@@ -79,7 +79,8 @@ export const Counter = () => {
 
   return (
     <>
-    <div className='flex justify-between md:gap-10 items-center w-full px-0 lg:px-12 py-10'>
+    <div className='flex flex-col justify-between md:gap-10 items-center w-full px-0 lg:px-12 py-10'>
+    <h1 className='text-lg md:text-2xl text-orange-500 font-bold'>Upcoming Events</h1>
       <motion.div className='w-full pl-8' initial={{opacity: 0, x:-20}} animate={{opacity: 1, x:20}} transition={{delay: 0.7, ease: "easeIn"}}>
         <h1 className='text-lg md:text-2xl text-orange-500 font-bold'>Devsprint 2.0</h1>
         <p className='mt-1 text-sm text-slate-500'>September 2024</p>
@@ -87,7 +88,7 @@ export const Counter = () => {
       </motion.div>
       <div className='w-full flex justify-end h-fit '>
         <motion.div initial={{opacity: 0, x:20}} animate={{opacity: 1, x:-20}} transition={{delay: 1.2}} className='w-fit p-4'>
-        <h1 className='text-xs md:text-lg xl:text-xl font-semibold text-orange-500 bn5 select-none'>{timer1}</h1>
+        <h1 className='text-xs md:text-lg xl:text-xl font-semibold text-white bn5 select-none'>{timer1}</h1>
         </motion.div>
       </div>
     </div>

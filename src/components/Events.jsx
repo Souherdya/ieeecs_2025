@@ -59,49 +59,51 @@ export const Events = () => {
     ]
   };
 
-  const events = [{
-    name: "Wingardium Deviosa",
-    image: deviosa,
-    date: "19.09.2023",
-    text: "Stepping into the enchanting world of magic, our event  featured Sorting, Quidditch, Horcruxes, a Triwizard Tournament with a Yule Ball and more. It offered a diverse experience akin to Bertie Bott's Every Flavour Beans.Potterheads and Non-Potterheads, Wizards/Witches and Muggles, Aurors and Death Eaters, Gryffindors, Slytherins, Hufflepuffs and Ravenclaws—everyone was welcome to join the magical festivities!"
-},
-{
-  name: "The Geller Cup",
-  image: geller,
-  date: "10.09.2024",
-  text: "A fun-filled event where the only requirement is to bring your fabulous self and an appetite for some seriously epic games. Whether you’ve never seen an episode or just don’t get why people love that coffee shop so much, this is your chance to experience the magic (and madness) of Friends in the best way possible. Expect surprises, hilarious moments and maybe a few trivia questions that even a Friends fan might get wrong!"
-},
-{
-    name: "Converge 2024",
-    image: converge,
-    date: "27.01.2024",
-    text: "A mesmerizing tech fiesta that was more than just an event—it was an experience! Participants immersed themselves in riveting talks by industry trailblazers, unlocking the mysteries of cutting-edge technologies. They crafted their skills in application-based workshops, turning concepts into tangible tech marvels. The event also featured exciting technical and non-technical games, offering participants the chance to win cash prizes and more."
-},
-{
-    name: "Elevate",
-    image: elevate,
-    date: "06.09.2023",
-    text: "Elevate'23, the annual flagship event of IEEE IEM SB, took place from April 6th to 9th in collaboration with IEEE IEM CS. The event featured captivating workshops and exciting competitions, with enthusiastic participants winning cash prizes and more."
-},
-{
-    name: "Squid Games",
-    image: squid,
-    date: "18.03.2023",
-    text: "Drawing inspiration from the Netflix Drama Series, our Squid Game event was a blast! With four thrilling rounds challenging participants in aptitude, general knowledge, coding and more, each stage saw eliminations, paving the way for qualified participants. The ultimate round was a strategic showdown, requiring the four finalists to cleverly convince others to lose for personal gain."
-},
-{
-    name: "Devsprint",
-    image: devsprint,
-    date: "08.11.2022",
-    text: "Devsprint, a unique hackathon, kicked off with insightful sessions on Web Development, Machine Learning, and IoT. Partnering with industry leaders like Durbin Technologies and Applex Technologies, the event featured a hackathon on the above-mentioned tracks judged by these experts, who shared valuable insights for success in the field of technology"
-},
-{
-  name: "Converge 2025",
-  image: converge_2k25,
-  date: "01.03.2025",
-  text: "Converge 2025, the flagship event of IEEE IEM SB, is set to be yet another grand celebration of technology and innovation. Converge 2025 promises to be an unforgettable experience, featuring a lineup of captivating workshops and thrilling competitions and fun gaming carnival. Participants can look forward to engaging sessions led by industry experts, where they can enhance their skills and knowledge in various domains. The event will also include exciting competitions that will challenge participants to showcase their talents and creativity. With cash prizes and other exciting rewards up for grabs, Converge 2025 is sure to be a highlight of the year for all tech enthusiasts."
-}]
-
+  const events = [
+    {
+      name: "Devsprint",
+      image: devsprint,
+      date: "08.11.2022",
+      text: "Devsprint, a unique hackathon, kicked off with insightful sessions on Web Development, Machine Learning, and IoT. Partnering with industry leaders like Durbin Technologies and Applex Technologies, the event featured a hackathon on the above-mentioned tracks judged by these experts, who shared valuable insights for success in the field of technology"
+    },
+    {
+      name: "Squid Games",
+      image: squid,
+      date: "18.03.2023",
+      text: "Drawing inspiration from the Netflix Drama Series, our Squid Game event was a blast! With four thrilling rounds challenging participants in aptitude, general knowledge, coding and more, each stage saw eliminations, paving the way for qualified participants. The ultimate round was a strategic showdown, requiring the four finalists to cleverly convince others to lose for personal gain."
+    },
+    {
+      name: "Elevate",
+      image: elevate,
+      date: "06.09.2023",
+      text: "Elevate'23, the annual flagship event of IEEE IEM SB, took place from April 6th to 9th in collaboration with IEEE IEM CS. The event featured captivating workshops and exciting competitions, with enthusiastic participants winning cash prizes and more."
+    },
+    {
+      name: "Wingardium Deviosa",
+      image: deviosa,
+      date: "19.09.2023",
+      text: "Stepping into the enchanting world of magic, our event  featured Sorting, Quidditch, Horcruxes, a Triwizard Tournament with a Yule Ball and more. It offered a diverse experience akin to Bertie Bott's Every Flavour Beans.Potterheads and Non-Potterheads, Wizards/Witches and Muggles, Aurors and Death Eaters, Gryffindors, Slytherins, Hufflepuffs and Ravenclaws—everyone was welcome to join the magical festivities!"
+    },
+    {
+      name: "Converge 2024",
+      image: converge,
+      date: "27.01.2024",
+      text: "A mesmerizing tech fiesta that was more than just an event—it was an experience! Participants immersed themselves in riveting talks by industry trailblazers, unlocking the mysteries of cutting-edge technologies. They crafted their skills in application-based workshops, turning concepts into tangible tech marvels. The event also featured exciting technical and non-technical games, offering participants the chance to win cash prizes and more."
+    },
+    {
+      name: "The Geller Cup",
+      image: geller,
+      date: "10.09.2024",
+      text: "A fun-filled event where the only requirement is to bring your fabulous self and an appetite for some seriously epic games. Whether you’ve never seen an episode or just don’t get why people love that coffee shop so much, this is your chance to experience the magic (and madness) of Friends in the best way possible. Expect surprises, hilarious moments and maybe a few trivia questions that even a Friends fan might get wrong!"
+    },
+    {
+      name: "Converge 2025",
+      image: converge_2k25,
+      date: "01.03.2025",
+      text: "Converge 2025, the flagship event of IEEE IEM SB, is set to be yet another grand celebration of technology and innovation. Converge 2025 promises to be an unforgettable experience, featuring a lineup of captivating workshops and thrilling competitions and fun gaming carnival. Participants can look forward to engaging sessions led by industry experts, where they can enhance their skills and knowledge in various domains. The event will also include exciting competitions that will challenge participants to showcase their talents and creativity. With cash prizes and other exciting rewards up for grabs, Converge 2025 is sure to be a highlight of the year for all tech enthusiasts."
+    }
+  ];
+  
   return (
     <section className='py-40' id='events'>
       <div className=' text-center px-14 mb-20'>
