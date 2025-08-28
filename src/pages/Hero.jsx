@@ -24,23 +24,15 @@ export const Hero = () => {
 
       <Upcoming
       id='1' 
-      upcoming_event="Elevate" 
-      StartDate="July 18, 2025" 
-      event_description="Welcome to the Upside Down of events — where innovation meets imagination!
-      IEEE IEM Student Branch, in collaboration with all the IEEE IEM student chapters, brings you a mind-bending extravaganza!
-      Get ready to venture into Hawkins, where every event is powered by curiosity, creativity, and chaos!" 
-      content_link="https://www.instagram.com/p/DKLxQc4Tb-6/?igsh=OWM1d3c2dmIxZnls"
-      img={souherdya}
+      upcoming_event="SYTRON" 
+      StartDate="August 29, 2025" 
+      event_description="SYTRON is a premier tech event bringing together innovation, 
+      creativity, and collaboration. The event features a diverse lineup of workshops, 
+      panel discussions, coding challenges, gaming tournaments, and interactive sessions, 
+      designed to inspire learners, developers, and tech enthusiasts alike." 
+      content_link="https://www.sytron.co.in"
       />
 
-      <Upcoming 
-      id='2'
-      upcoming_event="Avenza" 
-      StartDate="August 9, 2025" 
-      event_description="We're in the endgame now.” Portals will open. Realities may collide. Timelines will converge.
-      No post-credits scene this time—Are you ready to assemble?
-      Glorious purpose awaits this 9th of August!" 
-      content_link="https://www.instagram.com/p/DImD4Mcykuo/"/>
 
       <hr className="h-[2px] my-8 mx-14 border-0 bg-orange-300"></hr>
       <Stat />
